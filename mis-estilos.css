@@ -90,9 +90,8 @@ body {
     font-size: 18px;
     margin-top: 10px
 }
-.login-btn: :hover {
-    opacity: 0.5;
-}
+.login-btn:hover {
+    opacity: 0.5;}
 p {
     margin-top: 15px;
     font-size: 14px;
