@@ -1,0 +1,118 @@
+
+body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.Cuadro-principal {
+    height: 400px;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    margin-top: 250px;  
+    box-shadow: 3px 3px 10px black;
+}
+.contenido {
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+.contenido h1 {
+    font-size: 23px;
+}
+
+.contenido .img1 {
+    width: 160px;
+    height: 90px;
+}
+
+.contenido .lineas {
+display: flex;
+align-items: center;
+text-align: center;
+width: 250px;
+height: 30px;
+color: grey;
+background-color: white;
+border-color: grey;
+border-radius: 20px;
+ 
+}
+.campos {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.campos-imput {
+    width: 90%;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+} 
+.campos-icono {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    color: darkgray;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+}
+.user-icon {
+    width: 80px;
+    margin-bottom: 10px;
+}
+.usuario {
+    display: flex;
+    align-items: center;
+    background: #ffff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.usuario i {
+    margin-right: 10px;
+    color: #555;
+}
+.usuario input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    font-size: 16px;
+}
+.login-btn {
+    transition: opacity 0.3;
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px
+}
+.login-btn: :hover {
+    opacity: 0.5;
+}
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+p a {
+    color: blue;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
