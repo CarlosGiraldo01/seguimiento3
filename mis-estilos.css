@@ -9,8 +9,8 @@ body {
 }
 
 .Cuadro-principal {
-    height: 400px;
-    width: 400px;
+    height: 480px;
+    width: 480px;
     background-color: whitesmoke;
     border-radius: 10%;
     margin-top: 250px;  
@@ -33,18 +33,6 @@ body {
     height: 90px;
 }
 
-.contenido .lineas {
-display: flex;
-align-items: center;
-text-align: center;
-width: 250px;
-height: 30px;
-color: grey;
-background-color: white;
-border-color: grey;
-border-radius: 20px;
- 
-}
 .campos {
     position: relative;
     margin-bottom: 20px;
@@ -115,4 +103,45 @@ p a {
 }
 p a:hover {
     text-decoration: underline;
+}
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icons a {
+text-decoration: none;
+color: white;
+font-size: 20px;
+width: 45px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+transition: opacity 0.3;
+}
+
+.social-icons a i {
+    margin: 0;
+    padding: 0;
+}
+.social-icons .fa-facebook {
+    background: #4793db;
+    padding: 12px;
+    border-radius: 50%;
+}
+.social-icons .fa-square-twitter {
+background: #4793db;
+padding: 12px;
+border-radius: 50%;
+}
+.social-icons .fa-google {
+background: #4793db;
+padding: 12px;
+border-radius: 50%;
+}
+.social-icons a:hover {
+    opacity: 0.5;
 }
